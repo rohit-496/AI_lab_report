@@ -2,6 +2,7 @@
 
 people = ["Socrates", "Plato", "Aristotle"]
 Human = {"Socrates", "Plato", "Aristotle"}
+print("Rohit Nyaupane 4th sem CSIT")
 
 print("Predicate Logic:")
 print("Rule: Human(x) -> Mortal(x)\n")

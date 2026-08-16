@@ -12,6 +12,7 @@ Solved using backtracking search over letter-to-digit assignments.
 
 from itertools import permutations
 
+print("Rohit Nyaupane 4th sem CSIT")
 
 def solve_send_more_money():
     letters = "SENDMORY"  # 8 unique letters -> 8 of the 10 digits

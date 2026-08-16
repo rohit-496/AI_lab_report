@@ -7,6 +7,7 @@ class WeatherExpert:
         self.sky = sky
         self.pressure = pressure
 
+
     def forecast(self):
         result = []
 
@@ -28,6 +29,7 @@ class WeatherExpert:
 
         return result
 
+print("Rohit Nyaupane 4th sem CSIT")
 
 # First case
 weather1 = WeatherExpert(38, 30, 20, "clear", 1005)

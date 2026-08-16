@@ -1,6 +1,7 @@
 import networkx as nx
 
 G = nx.DiGraph()
+print("Rohit Nyaupane 4th sem CSIT")
 
 # Semantic network
 G.add_edge("Sparrow", "Bird", relation="is-a")

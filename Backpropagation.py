@@ -9,6 +9,7 @@ problem that requires backpropagation / hidden layers to solve).
 
 import numpy as np
 
+print("Rohit Nyaupane 4th sem CSIT")
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))

@@ -13,7 +13,9 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
-TEXT = ("Artificial Intelligence is transforming the world. "
+print("Rohit Nyaupane 4th sem CSIT")
+
+TEXT = ("Artificial Intelligence is transforming the world. "[]
         "Natural Language Processing helps machines understand "
         "and generate human language efficiently.")
 
@@ -52,10 +54,6 @@ def demonstrate_nlp(text):
     print(f"\n5. Lemmatization (WordNet Lemmatizer):")
     print(f"   {lemmatized_words}")
 
-    # 6. Part-of-Speech Tagging
-    pos_tags = nltk.pos_tag(words)
-    print(f"\n6. Part-of-Speech (POS) Tagging:")
-    print(f"   {pos_tags}")
 
 
 if __name__ == "__main__":

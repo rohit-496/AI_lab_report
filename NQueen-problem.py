@@ -8,6 +8,7 @@ each other (no two in same row, column, or diagonal), solved using
 backtracking.
 """
 
+print("Rohit Nyaupane 4th sem CSIT")
 
 def is_safe(board, row, col, n):
     # Check this column on upper rows

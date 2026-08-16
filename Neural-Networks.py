@@ -1,5 +1,7 @@
 import numpy as np
 
+print("Rohit Nyaupane 4th sem CSIT")
+
 def perceptron(X, y, epochs=10, lr=0.1):
     weights = np.zeros(X.shape[1])
     bias = 0
